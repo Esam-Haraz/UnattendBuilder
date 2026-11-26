@@ -78,21 +78,6 @@
 
 ---
 
-## 🛠️ التشغيل من الكود وبناء ملف `.exe`
-
-```powershell
-# تشغيل الاختبارات (محرك XML + Ventoy + الترجمة)
-python -m unittest discover -s tests -v
-
-# تشغيل البرنامج من السورس
-python main.py
-
-# بناء UnattendBuilder.exe + ملف SHA-256
-.\build_exe.ps1
-```
-
----
-
 ## 📄 المطور وحقوق الملكية
 تم التطوير بواسطة **Essam** — جميع الحقوق محفوظة © 2026.  
 الموقع والتواصل: [esam-haraz.github.io/hub](https://esam-haraz.github.io/hub/#contact)
