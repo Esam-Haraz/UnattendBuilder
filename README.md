@@ -76,21 +76,6 @@ Instead of manually clicking through Windows Setup screens, bypassing hardware c
 
 ---
 
-## 🛠️ Running from Source & Building `.exe`
-
-```powershell
-# Run unit tests (Unattend XML engine + Ventoy helper + i18n)
-python -m unittest discover -s tests -v
-
-# Launch from source
-python main.py
-
-# Build standalone UnattendBuilder.exe + SHA-256 checksum
-.\build_exe.ps1
-```
-
----
-
 ## 📄 Author & License
 Developed by **Essam** — Copyright © 2026 Essam. All rights reserved.  
 Contact / Portfolio: [esam-haraz.github.io/hub](https://esam-haraz.github.io/hub/#contact)
